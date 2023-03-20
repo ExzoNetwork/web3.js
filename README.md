@@ -1,20 +1,20 @@
 
 # JavaScript API
 
-This is the Velas Javascript API built on [JSON RPC API](https://docs.velas.com/apps/javascript-api)
+This is the Exzo Network Javascript API built on [JSON RPC API](https://docs.exzo.technology/developing-on-native-exzo/clients)
 
 ## Installation
 
 ### Yarn
 
 ```
-$ yarn add @velas/web3
+$ yarn add @exzonetwork/web3
 ```
 
 ### npm
 
 ```
-$ npm install --save @velas/web3
+$ npm install --save @exzonetwork/web3
 ```
 
 ### Browser bundle
@@ -29,7 +29,7 @@ $ npm install --save @velas/web3
 
 ## Development Environment Setup
 
-Install the latest Velas release from https://docs.velas.com/cli/install-velas-cli-tools
+Install the latest Velas release from https://docs.exzo.technology/command-line
 
 ### BPF program development
 
@@ -40,21 +40,21 @@ Install the latest Velas release from https://docs.velas.com/cli/install-velas-c
 ### Javascript
 
 ```js
-const velasWeb3 = require('@velas/web3.js');
-console.log(velasWeb3);
+const exzoWeb3 = require('@exzonetwork/web3.js');
+console.log(exzoWeb3);
 ```
 
 ### ES6
 
 ```js
-import velasWeb3 from '@velas/web3.js';
-console.log(velasWeb3);
+import exzosWeb3 from '@exzonetwork/web3.js';
+console.log(exzoWeb3);
 ```
 
 ### Browser bundle
 
 ```js
-// `velasWeb3` is provided in the global namespace by the `velasWeb3.min.js` script bundle.
+// `velasWeb3` is provided in the global namespace by the `exzoWeb3.min.js` script bundle.
 console.log(velasWeb3);
 ```
 ## Examples
@@ -81,7 +81,7 @@ node_modules/@solana/web3.js/module.flow.js
 
 ## Releases
 Releases are available on [Github](https://github.com/velas/web3.js/releases)
-and [npmjs.com](https://www.npmjs.com/package/@velas/web3.js)
+and [npmjs.com](https://www.npmjs.com/package/@exzonetwork/web3.js)
 
 Each Github release features a tarball containing API documentation and a
 minified version of the module suitable for direct use in a browser environment
